@@ -4,7 +4,7 @@ import TimeoutComponent from "./TimeoutComponent";
 export default function App() {
   return (
     <>
-      {/* <ToggleComponent /> */}
+      <ToggleComponent />
       <TimeoutComponent />
     </>
   );
