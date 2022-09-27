@@ -4,6 +4,7 @@ import DebounceComponent from "./DebounceComponent";
 import UpdateEffectComponent from "./UpdateEffectComponent";
 import ArrayComponent from "./ArrayComponent";
 import PreviousComponent from "./PreviousComponent";
+import StateWithHistoryComponent from "./StateWithHistoryComponent";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <UpdateEffectComponent />
       <ArrayComponent />
       <PreviousComponent />
+      <StateWithHistoryComponent />
     </>
   );
 }
